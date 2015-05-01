@@ -1,0 +1,157 @@
+/* Colors */
+#wpforms-container a.menu-delete{ color: #a00; }
+#wpforms-container a.wpforms-img-link{
+				display: block;
+    margin: 6px 5px 10px;
+				width: 40%;
+}
+
+/* Container Styles */
+#wpforms-container{
+				background: #fff;
+				border-radius: 7px;
+				box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.6);
+				margin: 20px 0 0;
+				padding: 15px;
+				width: 60%;
+}
+#wpforms-container .wpforms-message{
+				background: #fcfcd1;
+				font-size: 16px;
+    font-weight: bold;
+				margin: 0 0 10px;
+    padding: 15px 20px;
+    width: 350px;
+}
+.toplevel_page_wpforms #wpforms-container h2{
+				float: left;
+				width: 0;
+}
+#wpforms-container #wpforms-upload label{ cursor: default; display: block; }
+#wpforms-container #wpforms-upload input,
+#wpforms-container #wpforms-upload textarea{
+				display: block;
+				margin: 0 0 10px;
+				width: 390px;
+}
+#wpforms-container #wpforms-upload input:last-of-type{ width: auto; }
+#wpforms-container #wpforms-upload #wpforms-upload-description{ height: 100px; }
+
+/* Search Styles */
+#wpforms-search {
+				float: right;
+				margin: 18px 0 0;
+}
+#wpforms-search input{ float: right; }
+#wpforms-search #wpforms-search-button{ margin: -1px 0 0 -3px; }
+
+/* Forms Listing Styles */
+#wpforms-container table#wpforms-listing {
+				border-collapse: collapse;
+				clear: right;
+				width: 100%;
+}
+#wpforms-container table#wpforms-listing td,
+#wpforms-container table#wpforms-listing th{
+				min-width: 135px;
+    padding: 1px 8px 1px 0;
+    text-align: left;
+}
+#wpforms-container table#wpforms-listing thead{
+				border-bottom: 1px #ccc solid;
+				margin: 0 0 10px 0;
+				padding: 0 0 5px 0;
+}
+#wpforms-container table#wpforms-listing thead tr th:first-child,
+#wpforms-container table#wpforms-listing tbody tr th{
+				min-width: 20px;
+				width: 20px;
+}
+#wpforms-container table#wpforms-listing .check-column input{ margin: 4px 0 0; }
+.toplevel_page_wpforms #wpforms-listing + h2{
+				text-align: center;
+				width: 100%;
+}
+
+/* Bulk Actions Styles */
+#wpforms-container div#wpforms-bulk-actions{ margin: 5px 0; }
+#wpforms-container div#wpforms-bulk-actions label{ font-size: 16px; }
+
+/* Associations Styles */
+.forms_page_wpforms-associations #wpforms-container h2{ float: left; }
+#wpforms-associations-aside{
+				float: right;
+				width: 20%;
+}
+#wpforms-associations-aside ul li.child{ margin-left: 24px; }
+#wpforms-associations-form{
+				float: left;
+				width: 75%;
+}
+#wpforms-container.break{ clear: both; }
+#wpforms-associations-aside ul{
+				border-left: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    height: 200px;
+    overflow: scroll;
+    padding: 0 15px;
+}
+#wpforms-form-id{ width: 200px; }
+#wpforms-associations-form h3{ margin-bottom: 0; }
+#wpforms-associations{ margin: 20px 0 0; }
+
+/* Settings Styles */
+#wpforms-settings-form .form-block{
+				margin: 10px 0;
+				position: relative;
+}
+#wpforms-settings-form .form-block p{
+				border-radius: 12px;
+    box-shadow: 2px 6px 10px 2px rgba(50, 50, 50, 0.6);
+    display: none;
+    margin: 5px 0 0;
+    position: absolute;
+    right: 20px;
+    top: -35px;
+}
+#wpforms-settings-form .form-block label label{ display: block; }
+#wpforms-settings-form .form-block label input[type="text"]{
+				margin: 0 -5px 0 0;
+    padding: 5px 5px 6px;
+}
+#wpforms-settings-form #wpforms-choose-file-button{ height: 33px; }
+
+/* Visual Form Builder Overrides */
+.wp-admin #wp-content-media-buttons a.add_media.thickbox[title="Add Visual Form Builder form"]{ display: none; }
+
+/* Thickbox Styles */
+#wpforms-media-button-associate-content{ display: none; }
+
+/* CSS3 Animations */
+#wpforms-anim-dots{
+				display: none;
+				left: 110px;
+    position: relative;
+    top: -22px;
+    width: 79.3333px;
+}
+.wpforms-anim-dots{
+				background-color:#FFFFFF;
+				float:left;
+				height:17px;
+				margin-left:9px;
+				width:17px;
+				animation-name:bounce_wpforms-anim-dots;
+				animation-duration:1.9500000000000002s;
+				animation-iteration-count:infinite;
+				animation-direction:linear;
+				border-radius:11px;
+}
+#wpforms-anim-dots_1{ animation-delay:0.39s; }
+#wpforms-anim-dots_2{ animation-delay:0.9099999999999999s; }
+#wpforms-anim-dots_3{ animation-delay:1.1700000000000002s; }
+@keyframes bounce_wpforms-anim-dots{
+				0%{ }
+				50%{ background-color:#999999}
+				100%{ }
+}

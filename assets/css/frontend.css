@@ -1,0 +1,42 @@
+.wpforms-icon-container{ }
+.wpforms-icon{
+    height: 32px;
+    margin: 10px 20px 0 0;
+    overflow: hidden;
+}
+.wpforms-icon h3{
+				color: #000;
+    display: inline-block;
+    margin: 15px 5px 3px 0;
+    position: relative;
+    top: -5px;
+}
+.wpforms-popup{
+				box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.6);
+				display: none;
+				margin: 0 0 0 3px;
+				min-height: 150px;
+    position: relative;
+    top: 15px;
+    width: 287px;
+}
+.wpforms-popup .wpforms-popup-header{
+				background: #315589;
+				color: #fff;
+				margin: 0;
+				padding: 15px 0;
+				text-align: center;
+}
+.wpforms-popup .wpforms-popup-body{
+				background: #ccc;
+				min-height: 120px;
+				padding: 1px 20px 20px;
+}
+.wpforms-popup .wpforms-popup-body ul{
+				list-style-type: square;
+				margin: 0;
+}
+.wpforms-popup .wpforms-popup-body ul li{
+				line-height: 20px;
+				margin: 8px 0 8px 15px;
+}
